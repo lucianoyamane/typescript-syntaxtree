@@ -9,6 +9,7 @@ class AssigmentExpressionConfig extends Config{
         this._valueSyntaxTree = builder.valueSyntaxTree;
     }
 
+    //TODO: refactoring
     __toSyntaxKind(typeValue) {
         if (typeValue) {
             if (typeValue === '+=') {
