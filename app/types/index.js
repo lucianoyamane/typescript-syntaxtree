@@ -6,5 +6,8 @@ module.exports = {
     block: {
         statement: require('./block.statement').builder
     },
+    functionType: {
+        expression: require('./function/expression').builder
+    },
     identifier: require('./identifier').builder
 };
